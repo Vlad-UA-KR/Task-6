@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: #3B3F45;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 30px solid white;
+    font-family: Trebuchet, Arial, sans-serif;
+}
+
+/* header */
+
+.header{
+    background-color: #4A4F56;
+    height: 13%;
+    text-align: center;
+    color: #EB7E7F;
+}
+.header__text-big{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.header__text-normal{
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+/* main */
+
+.main{
+    height: auto;
+    width: 45%;
+    margin: 80px auto;
+    background-color: aqua;
+    font-size: 25px;
+}
+.main__list__list-item{
+    height: 50px;
+}
+.main__list{
+    list-style: none;
+    height: 100%;
+    color: white;
+}
+.main__list__list-item_label{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+.main__list__list-item_label_input{
+    transform: scale(1.7);
+}
+p{
+    margin-left: 15px;
+}
+.main__list__list-item:nth-child(odd){
+    background-color: #88839E;
+}
+.main__list__list-item:nth-child(even){
+    background-color: #7A7593;
+}
+.main__list__list-item:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: #625E77;
+    color: #AFA6B7;
+    transition: all .1s ease-in;
+}
+[type="checkbox"]:checked + p{
+    text-decoration: line-through;
+    color: #b5b2c7;
+    transition: all .1s ease-in;
+}
+.main__list__list-item:active{
+    background-color: #EB7E7F;
+    transition: all .1s ease-in;
+}
+.main__list__list-item_label_pickles:after{
+    content: " (for the next lesson about CSS)";
+    font-size: smaller;
+    color: #b5b2c7;
+}
+.main__list__list-item_label_apples:after{
+    content: " (for more CSS manipulations)" ;
+    font-size: smaller;
+    color: #b5b2c7;
+}
+.main__list__list-item_label_oranges:after{
+    content: "( because they are awesome)" ;
+    font-size: smaller;
+    color: #b5b2c7;
+}
+.main__list__list-item_label_plates:after{
+    content:" (hmm... they are always disappear" ;
+    font-size: smaller;
+    color: #b5b2c7;
+}
+.main__list__list-item_label_bottle:after{
+    content: " (for my friends)";
+    font-size: smaller;
+    color: #b5b2c7;
+}
+/* footer */
+
+.submit{
+    height: 7%;
+    width: 45%;
+    margin: 40px auto;
+    background-color: #4A4F56;
+    text-align: center;
+}
+.submit__button{
+    color: #EB7E7F;
+    font-size: 30px;
+    background-color: #4A4F56;
+    border: none;
+    padding-top: 10px;
+}
+.submit:hover{
+    background-color: #625E77;
+    border: 3px solid white;
+    transition: all .1s ease-in;
+}
+.submit:hover .submit__button{
+    background-color: #625E77;
+    transition: all .1s ease-in;
+}
+.submit:active{
+    border: 3px solid #EB7E7F ;
+    transition: all .1s ease-in;
+}
