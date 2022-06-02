@@ -22,11 +22,10 @@
 .header__text-big{
     font-size: 40px;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 .header__text-normal{
     font-size: 25px;
-    padding-top: 10px;
     font-weight: normal;
 }
 
